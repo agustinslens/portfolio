@@ -273,6 +273,7 @@ span {
 .contact-form {
     padding: 200px;
     padding-bottom: 0;
+    padding-top: 100px;
 }
 
 .container-contact img {
@@ -326,6 +327,7 @@ span {
 }
 .or h4{
     margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 /* footer */
