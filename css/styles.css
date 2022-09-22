@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -27,7 +29,7 @@ body {
     height: 50px;
     justify-content: space-between;
     padding: 1em;
-    
+
 }
 
 .brand {
@@ -53,7 +55,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
-    transition:ease-in 0.3;
+    transition: ease-in 0.3;
 }
 
 .menu .active {
@@ -104,7 +106,7 @@ span {
 
 .info-content {
     padding: 48px;
-    
+
 }
 
 .info-content p {
@@ -227,7 +229,6 @@ span {
     justify-content: space-evenly;
     color: #fff;
 
-
 }
 
 .card_projects_links a {
@@ -243,7 +244,7 @@ span {
     margin-bottom: 3em;
 }
 
-.container-contact  {
+.container-contact {
     opacity: 0.3;
     z-index: -1;
 }
@@ -316,20 +317,23 @@ span {
     transition: ease-in 0.2s;
 }
 
-.or{
+.or {
     margin-top: 20px;
     margin-left: 200px;
     font-weight: 600;
 }
-.or hr{
+
+.or hr {
     margin-bottom: 10px;
-    
+
 }
-.or h4{
+
+.or h4 {
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
+
 /* footer */
 
 .footer {
@@ -362,4 +366,172 @@ span {
     justify-content: space-evenly;
     width: 600px;
     margin-top: 1em;
+}
+
+
+@media screen and (max-width:450px) {
+    .body{
+        width:300px;
+    }
+    .wrapper {
+        width: 87vw;
+        height: 201vw;
+    }
+
+    .navbar {
+        width: 86vw;
+        justify-content:left;
+    }
+.brand{
+
+}
+.menu{
+    font-size: 10px;
+    margin-left: 100px;
+}
+.menu li{
+    padding: 10px;
+    padding-top: 0;
+    /* padding: 5px;
+    margin-left: 5px; */
+    width: 100px;
+}
+.menu a{
+    padding: 0;
+    /* padding: 5px;
+    margin-left: 5px; */
+    width: 1000px;
+}
+    .main {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-content {
+        margin: 0;
+        padding: 0;
+        margin-top: 52px;
+    }
+
+    .img-content {
+        margin-top: -80px;
+        width: 100vw;
+    }
+
+    .img-content img {
+        height: 90%;
+        width: 100%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-info {
+        padding: 30px;
+    }
+
+    .about img {
+        width: 93vw;
+        height: 450px;
+    }
+
+    .porftolio {
+        width: 100vw;
+    }
+
+    .porftolio-headings {
+        width: 86.5vw;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: -500px;
+    }
+
+    .card {
+        width: 80vw;
+        margin-left: -70px;
+        padding: 0;
+        background-color: rgb(8, 48, 90);
+    }
+
+    .card_img {
+        background-image: url(../img/pi.jpg);
+        background-size: contain;
+        height: 150px;
+        width: 290px;
+        /* margin-left: -70px; */
+        margin-top: -400px;
+    }
+
+    .card_img_2 {
+        background-image: url(../img/pi.jpg);
+        background-size: contain;
+        height: 150px;
+        width: 290px;
+        /* margin-left: -70px; */
+        margin-top: -400px;
+    }
+
+    .card_title {
+        width: 80vw;
+        margin-left: 10px;
+    }
+
+    .card_projects_links {
+        padding: 0;
+        margin: 0;
+    }
+
+    .card_projects_links a {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .divider_1 {
+        margin-top: 700px;
+        position: absolute;
+        margin-left: -20px;
+        width: 300px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-contact {
+        display: none;
+    }
+
+    .contact-form {
+
+        padding: 50px;
+    }
+
+    .form {
+        width: 250px;
+    }
+
+    .or {
+        margin: 0;
+        margin-left: 50px;
+        width: 250px;
+    }
+    .footer{
+        height: auto;
+        display: flex;
+        padding: 15px;
+        width: 86.5vw;
+    }
+    .footer-content h2{
+        font-size: 30px;
+    }
+    .footer-content h5{
+        font-size: medium;
+    }
 }
