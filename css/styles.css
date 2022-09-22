@@ -63,7 +63,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: rgb(255, 91, 91);
+    
     color: rgb(8, 48, 90);
     transition: ease-in 0.3s;
 }
@@ -370,38 +370,43 @@ span {
 
 
 @media screen and (max-width:450px) {
+    *{
+        width: 300px;
+    }
     .body{
-        width:300px;
+        background-color: aqua;
     }
     .wrapper {
-        width: 87vw;
+        width: 92vw;
         height: 201vw;
     }
 
     .navbar {
-        width: 86vw;
-        justify-content:left;
+        width: 100vw;
+        /* width: 92vw;
+        justify-content: left; */
     }
-.brand{
 
-}
-.menu{
-    font-size: 10px;
-    margin-left: 100px;
-}
-.menu li{
-    padding: 10px;
-    padding-top: 0;
-    /* padding: 5px;
+    .menu {
+        font-size: 10px;
+        margin-left: -300px;
+    }
+
+    .menu li {
+        padding: 10px;
+        padding-top: 0;
+        /* padding: 5px;
     margin-left: 5px; */
-    width: 100px;
-}
-.menu a{
-    padding: 0;
-    /* padding: 5px;
+        width: 100px;
+    }
+
+    .menu a {
+        padding: 0;
+        /* padding: 5px;
     margin-left: 5px; */
-    width: 1000px;
-}
+        width: 1000px;
+    }
+
     .main {
         padding: 0;
         display: flex;
@@ -427,7 +432,7 @@ span {
     .about {
         display: flex;
         flex-direction: column-reverse;
-        width: 80vw;
+        width: 92vw;
         padding: 0;
         margin: 0;
     }
@@ -442,11 +447,11 @@ span {
     }
 
     .porftolio {
-        width: 100vw;
+        width: 92vw;
     }
 
     .porftolio-headings {
-        width: 86.5vw;
+        width: 92.5vw;
         display: flex;
         flex-direction: column;
         padding-bottom: -500px;
@@ -522,16 +527,19 @@ span {
         margin-left: 50px;
         width: 250px;
     }
-    .footer{
+
+    .footer {
         height: auto;
         display: flex;
         padding: 15px;
-        width: 86.5vw;
+        width: 93vw;
     }
-    .footer-content h2{
+
+    .footer-content h2 {
         font-size: 30px;
     }
-    .footer-content h5{
+
+    .footer-content h5 {
         font-size: medium;
     }
 }
